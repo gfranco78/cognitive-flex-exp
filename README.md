@@ -1,4 +1,4 @@
-#Prompt Engineering for Cognitive Flexibility
+# Prompt Engineering for Cognitive Flexibility
 
 This repository contains the source code used to run mini-expirements examining the concept of cognitive flexibility in LLMs as described in this article. It leverages the new MMLU pro dataset which you can find here https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro
 
