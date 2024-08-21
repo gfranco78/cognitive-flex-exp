@@ -1,0 +1,5 @@
+category,unconstrained_prompt,constrained_prompt,unconstrained_accuracy,constrained_accuracy,accuracy_difference
+biology,prompt_A_extracted_answer,prompt_B_extracted_answer,60.0,70.0,-10.0
+biology,prompt_C_extracted_answer,prompt_D_extracted_answer,50.0,50.0,0.0
+biology,prompt_E_extracted_answer,prompt_F_extracted_answer,60.0,50.0,10.0
+biology,prompt_G_extracted_answer,prompt_H_extracted_answer,60.0,40.0,20.0

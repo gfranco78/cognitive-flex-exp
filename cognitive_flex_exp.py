@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 os.environ["OPENAI_API_KEY"] = ""
 client = OpenAI()
 
-# Constants
+# Testing control parameters
 SAMPLES_PER_CATEGORY = 10  # Adjust this number as needed to sample from the 14 categories
 NUM_QUESTIONS_TO_TEST = 140  # Adjust this number as needed for testing
 PROMPT_TYPES = ['A','B','C','D','E','F','G','H']  # Control over list of prompt templates to process
@@ -37,7 +37,7 @@ def format_options(options):
     formatted_options = [f"{label}: {option.strip()}" for label, option in zip(option_labels, options)]
     return '\n'.join(formatted_options)
 
-# Function to create prompts based on parts
+# Function to create prompts based on parts template
 def create_prompt(row, part2, part4):
     prompt = (
         f"{row['question']}\n\n"
